@@ -1,0 +1,331 @@
+{
+    "nombre": "JOSUÉ NEIL ACOSTA SALVA",
+    "cargo": "Full Stack Developer",
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/tesis-ca992.appspot.com/o/my-cv%2Fprofile.png?alt=media&token=8f04b794-2f2d-418c-a123-072652154f26",
+    "contacto": {
+        "direccion": "Mz B27 Lt25 Manuel Arévalo etapa III",
+        "telefono": "+51 977335635",
+        "email": "josue9423@gmail.com"
+    },
+    "referencias": [
+        {
+            "nombre": "Cristhian Davila Facundo",
+            "empresa": "Everis",
+            "telefono": "+51 963852741",
+            "email": "cdavilaf@everis.com"
+        },
+        {
+            "nombre": "Cesar Herrera Campaña",
+            "empresa": "Everis",
+            "telefono": "+51 963852123",
+            "email": "cherreca@everis.com"
+        }
+    ],
+    "skills": [
+        {
+            "categoria": "FRONT-END",
+            "skills": [
+                {
+                    "nombre": "HTML5",
+                    "nivel": 4.52
+                },
+                {
+                    "nombre": "CSS3",
+                    "nivel": 4.58
+                },
+                {
+                    "nombre": "SASS",
+                    "nivel": 4.18
+                },
+                {
+                    "nombre": "JavaScript",
+                    "nivel": 4.22
+                },
+                {
+                    "nombre": "JQuery",
+                    "nivel": 4.19
+                },
+                {
+                    "nombre": "Android",
+                    "nivel": 3.14
+                },
+                {
+                    "nombre": "Angular",
+                    "nivel": 3.15
+                },
+                {
+                    "nombre": "Ionic",
+                    "nivel": 2.62
+                },
+                {
+                    "nombre": "Cordova 9",
+                    "nivel": 3.51
+                },
+                {
+                    "nombre": "JQuery Mobile",
+                    "nivel": 3.51
+                },                
+                {
+                    "nombre": "JSP",
+                    "nivel": 2.85
+                },
+                {
+                    "nombre": "JSF",
+                    "nivel": 3.63
+                },
+                {
+                    "nombre": "PrimeFaces",
+                    "nivel": 3.41
+                }
+            ]
+        },
+        {
+            "categoria": "BACK-END",
+            "skills": [
+                {
+                    "nombre": "Java EE",
+                    "nivel": 4.1
+                },
+                {
+                    "nombre": "Maven",
+                    "nivel": 3.25
+                },
+                {
+                    "nombre": "Docker",
+                    "nivel": 1.9
+                },
+                {
+                    "nombre": "Spring Boot",
+                    "nivel": 3.87
+                },
+                {
+                    "nombre": "Spring MVC",
+                    "nivel": 3.97
+                },
+                {
+                    "nombre": "Spring Security",
+                    "nivel": 2.87
+                },
+                {
+                    "nombre": "Spring Data",
+                    "nivel": 3.11
+                },
+                {
+                    "nombre": "Spring Cloud",
+                    "nivel": 1.69
+                },
+                {
+                    "nombre": "Microservicios",
+                    "nivel": 3.11
+                },
+                {
+                    "nombre": "JHipster",
+                    "nivel": 2.92
+                },
+                {
+                    "nombre": "Swagger",
+                    "nivel": 2.99
+                },
+                {
+                    "nombre": "JPA",
+                    "nivel": 3.48
+                },
+                {
+                    "nombre": "Hibernate",
+                    "nivel": 3.41
+                },
+                {
+                    "nombre": "MyBatis",
+                    "nivel": 3.22
+                },
+                {
+                    "nombre": "Oracle 11G",
+                    "nivel": 3.22
+                },
+                {
+                    "nombre": "MySQL",
+                    "nivel": 3.52
+                },
+                {
+                    "nombre": "SQL Server",
+                    "nivel": 3.12
+                },
+                {
+                    "nombre": "Transac SQL",
+                    "nivel": 2.99
+                },
+                {
+                    "nombre": "Jackson/Gson",
+                    "nivel": 3.88
+                }
+            ]
+        },
+        {
+            "categoria": "GENERAL",
+            "skills": [
+                {
+                    "nombre": "GIT",
+                    "nivel": 4.65
+                },
+                {
+                    "nombre": "nodeJS",
+                    "nivel": 3.39
+                },
+                {
+                    "nombre": "NPM",
+                    "nivel": 3.89
+                },
+                {
+                    "nombre": "Firebase",
+                    "nivel": 3.89
+                },
+                {
+                    "nombre": "Postman",
+                    "nivel": 4.44
+                },
+                {
+                    "nombre": "POO",
+                    "nivel": 4.45
+                },
+                {
+                    "nombre": "Programación Funcional",
+                    "nivel": 3.89
+                },
+                {
+                    "nombre": "Apache POI",
+                    "nivel": 4.41
+                },
+                {
+                    "nombre": "MVC",
+                    "nivel": 4.49
+                },
+                {
+                    "nombre": "MVP",
+                    "nivel": 3.19
+                },
+                {
+                    "nombre": "MVVM",
+                    "nivel": 2.11
+                },
+                {
+                    "nombre": "Arquitectura Clean",
+                    "nivel": 3.11
+                }
+            ]
+        }
+    ],
+    "experiencias": [
+        {
+            "empresa": "Everis",
+            "ingreso": "ABRIL 2019",
+            "salida": "Actualidad",
+            "proyectos":[
+                {
+                    "cliente":"Correos España (MOVIL)",
+                    "descripcion":"Desarrollador Front-end para diversas aplicaciones móviles nativas e híbridas de Correos-ESP.",
+                    "tecnologias":[
+                        {"skill":"Android"},
+                        {"skill":"MVP"},
+                        {"skill":"Volley"},
+                        {"skill":"Retrofit"},
+                        {"skill":"Cordova 9"},
+                        {"skill":"JQuery Mobile"},
+                        {"skill":"Firebase"},
+                        {"skill":"CSS3"},
+                        {"skill":"Postman"},
+                        {"skill":"GIT"}
+                    ]
+                },
+                {
+                    "cliente":"Correos España (WEB)",
+                    "descripcion":"Desarrollador Full-stack para los sistemas de Correos-ESP.",
+                    "tecnologias":[
+                        {"skill":"Java 7"},
+                        {"skill":"Spring Boot"},
+                        {"skill":"Spring Security"},
+                        {"skill":"Maven"},
+                        {"skill":"JSF"},
+                        {"skill":"PrimeFaces"},
+                        {"skill":"JPA"},
+                        {"skill":"Hibernate"},
+                        {"skill":"REST"},
+                        {"skill":"Oracle 11g"},
+                        {"skill":"SVN"}
+                    ]
+                },
+                {
+                    "cliente":"Entel Perú",
+                    "descripcion":"Desarrollador Back-end en los microservicios de la aplicación Mi Entel.",
+                    "tecnologias":[
+                        {"skill":"Java 8"},
+                        {"skill":"Spring Boot"},
+                        {"skill":"Spring Security"},
+                        {"skill":"Spring Cloud"},
+                        {"skill":"Maven"},
+                        {"skill":"JHipster"},
+                        {"skill":"REST"},
+                        {"skill":"Jackson"},
+                        {"skill":"MyBatis"},
+                        {"skill":"Hibernate"},
+                        {"skill":"Git"}
+                    ]
+                },
+                {
+                    "cliente":"Alicorp SAC",
+                    "descripcion":"Desarrollador Front-end en el proyecto Diariamente Ali.",
+                    "tecnologias":[
+                        {"skill":"HTML5"},
+                        {"skill":"CSS3"},
+                        {"skill":"JavaScript"},
+                        {"skill":"JQuery"},
+                        {"skill":"Bootstrap 4"},
+                        {"skill":"Git"},
+                        {"skill":"Zeplin"}
+                    ]
+                }
+            ]
+        },
+        {
+            "empresa": "Corporación Gerencia.com",
+            "ingreso": "FEBRERO 2019",
+            "salida": "ABRIL 2019",
+            "proyectos":[
+                {
+                    "cliente":"Sistema contable",
+                    "descripcion":"Desarrollador Full-Stack en el sistema interno para el control de la contabilidad de los clientes.",
+                    "tecnologias":[
+                        {"skill":"Java 8"},
+                        {"skill":"JSP"},
+                        {"skill":"Hibernate"},
+                        {"skill":"SQL Server"},
+                        {"skill":"CSS 3"},
+                        {"skill":"Jquery"},
+                        {"skill":"Ajax"},
+                        {"skill":"Bootstrap 4"},
+                        {"skill":"GIT"}
+                    ]
+                }
+            ]
+        },
+        {
+            "empresa": "Freelance",
+            "ingreso": "ENERO 2018",
+            "salida": "FEBRERO 2019"
+        }
+    ],
+    "educacion":[
+        {
+            "nombreEntidad":"Universidad Nacional de Trujillo",
+            "descripcion":"Informática",
+            "nivel":"Bachiller en Ciencias de la Computación"
+        },
+        {
+            "nombreEntidad":"I.E. Marcial Acharan y Smith",
+            "descripcion":"Secundaria"
+        },
+        {
+            "nombreEntidad":"I.E. Fe y Alegria",
+            "descripcion":"Primaria"
+        }
+    ]
+}

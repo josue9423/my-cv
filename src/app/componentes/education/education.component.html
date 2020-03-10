@@ -1,0 +1,27 @@
+<div class="row bg-white shadow-sm rounded px-2 py-2 my-2">
+    <div class="col-12">
+        <div class="h3 my-0 text-dark font-weight-bolder text-right" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapse">
+            {{title}}
+            <i *ngIf="!isCollapsed" class="fa fa-angle-up"></i>
+            <i *ngIf="isCollapsed" class="fa fa-angle-down"></i>
+        </div>
+        <hr class="my-1">
+        <div class="row" *ngFor="let educacion of data.educacion" id="collapse" [ngbCollapse]="isCollapsed">
+            <div class="col-12">
+                <div class="row mt-2 mb-1">
+                    <div class="col-12 d-flex align-items-center">
+                        <i class="fa fa-bookmark-o mr-2 text-danger"></i>
+                        <div class="h6 my-0  font-weight-bolder">
+                            {{educacion.nombreEntidad + " - " + educacion.descripcion}}
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <small class="my-0 ml-3 font-weight-bolder text-secondary" *ngIf="educacion.nivel">{{educacion.nivel}}
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

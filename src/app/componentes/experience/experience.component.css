@@ -1,0 +1,13 @@
+small{
+    font-size: 13px;
+}
+
+.border-gradient{
+    border: 1px solid;
+    border-image: linear-gradient(304deg, rgb(131,58,180,1), rgb(253,29,29,1)) 1;
+}
+
+.bg-gradient{
+    background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 81%, rgba(252,176,69,0) 100%);
+}

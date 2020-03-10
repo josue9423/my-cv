@@ -1,0 +1,34 @@
+<div class="row bg-white shadow-sm rounded px-2 py-2 my-2">
+    <div class="col-12">
+        <div class="h3 my-0 text-dark font-weight-bolder text-right" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapse">
+            {{title}}
+                <i *ngIf="!isCollapsed" class="fa fa-angle-up"></i>
+                <i *ngIf="isCollapsed" class="fa fa-angle-down"></i>
+        </div>
+        <hr class="my-1">
+        <div class="row" *ngFor="let experiencia of data.experiencias" id="collapse" [ngbCollapse]="isCollapsed">
+            <div class="col-12">
+                <div class="row mt-2 mb-1 bg-light border-gradient">
+                    <div class="col-12">
+                        <div class="h5 my-0  font-weight-bolder">
+                            {{experiencia.empresa}}
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <small
+                            class="my-0 ml-auto font-weight-bolder text-secondary ">{{experiencia.ingreso + " - " + experiencia.salida}}
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12" *ngFor="let proyecto of experiencia.proyectos">
+                        <app-experience-item [proyecto]="proyecto"></app-experience-item>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

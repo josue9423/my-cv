@@ -1,0 +1,23 @@
+.profile{
+    max-width: 190px !important;    
+}
+
+.full-heigth{
+    position:absolute;
+    bottom:0;
+}
+
+.heigth-full{
+    height: 100vh;
+}
+
+@media (max-width: 991px) {
+    .full-heigth{
+        position:inherit;
+        bottom:0;
+    }
+
+    .heigth-full{
+        height: 100%;
+    }
+  }

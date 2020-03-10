@@ -1,0 +1,23 @@
+<div class="row bg-white shadow-sm rounded px-2 py-2 my-2">
+    <div class="col-12">
+        <div class="h3 my-0 text-dark font-weight-bolder text-right" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapse">
+            {{title}}
+            <i *ngIf="!isCollapsed" class="fa fa-angle-up"></i>
+            <i *ngIf="isCollapsed" class="fa fa-angle-down"></i>
+        </div>
+        <hr class="my-1">
+        <div class="row" *ngFor="let skills of data.skills" id="collapse" [ngbCollapse]="isCollapsed">
+            <div class="col-12">
+                <div class="h5 my-0 mt-2 font-weight-bolder bg-light">{{skills.categoria}}</div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-6" *ngFor="let skill of skills.skills">
+                        <app-skill-item [skill]="skill"></app-skill-item>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

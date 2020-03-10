@@ -1,0 +1,11 @@
+<div class="row mt-1 px-1">
+    <div class="col-12 mb-1">
+        <h6 class="my-0 font-weight-bolder small">{{proyecto.cliente}}</h6>
+    </div>
+    <div class="col-12 mb-1">
+        <h6 class="my-0 tiny">{{proyecto.descripcion}}</h6>
+    </div>
+    <div class="col-12 mb-1 d-flex flex-wrap">
+        <label class="bg-dark text-white mr-1 px-1 rounded" *ngFor="let tecnologia of proyecto.tecnologias">{{tecnologia.skill}}</label>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<ng-template #fill let-fill="fill">
+    <span class="star" [class.full]="fill === 50">
+        <span class="half" [style.width.%]="fill"><i class="fa fa-star"></i></span><i class="fa fa-star"></i>        
+    </span>
+</ng-template>
+
+<div class="row py-1">
+    <div class="col-12 d-flex align-items-center">
+        <div class="h6 my-0 mr-3">{{ skill.nombre }}</div>
+        <div class="ml-auto">
+            <ngb-rating [(rate)]="skill.nivel" [starTemplate]="fill" [readonly]="true" max="5"></ngb-rating>
+        </div>
+    </div>
+</div>
