@@ -15,6 +15,7 @@ import { EducationItemComponent } from './componentes/education-item/education-i
 import { ExperienceItemComponent } from './componentes/experience-item/experience-item.component';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { CertificatesComponent } from './componentes/certificates/certificates.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     SkillComponent,
     SkillItemComponent,
     EducationItemComponent,
-    ExperienceItemComponent
+    ExperienceItemComponent,
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,

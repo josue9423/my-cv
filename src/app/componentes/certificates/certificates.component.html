@@ -7,17 +7,17 @@
             <i *ngIf="isCollapsed" class="fa fa-angle-down"></i>
         </div>
         <hr class="my-1">
-        <div class="row" *ngFor="let educacion of data.educacion" id="collapse" [ngbCollapse]="isCollapsed">
+        <div class="row" *ngFor="let certificado of data.certificados" id="collapse" [ngbCollapse]="isCollapsed">
             <div class="col-12">
                 <div class="row mt-2 mb-1">
                     <div class="col-12 d-flex align-items-center">
                         <i class="fa fa-bookmark-o mr-2 text-danger"></i>
                         <div class="h6 my-0  font-weight-bolder">
-                            {{educacion.nombreEntidad + " - " + educacion.descripcion}}
+                            {{certificado.nombreEntidad}}
                         </div>
                     </div>
                     <div class="col-12">
-                        <small class="my-0 ml-0 ml-md-3 font-weight-bolder text-secondary" *ngIf="educacion.nivel">{{educacion.nivel}}
+                        <small class="my-0 ml-0 ml-md-3 font-weight-bolder text-secondary">{{certificado.descripcion}}
                         </small>
                     </div>
                 </div>

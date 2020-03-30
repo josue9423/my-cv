@@ -1,7 +1,8 @@
 {
     "nombre": "JOSUÉ NEIL ACOSTA SALVA",
     "cargo": "Full Stack Developer",
-    "imagen": "https://firebasestorage.googleapis.com/v0/b/tesis-ca992.appspot.com/o/my-cv%2Fprofile.png?alt=media&token=8f04b794-2f2d-418c-a123-072652154f26",
+    "imagen": "assets/img/profile.jpg",
+    "descripcion": "Apasionado por el desarrollo WEB, actualmente me desempeño como desarrollador Full-Stack con sólidos conocimientos en Java como lenguaje principal de desarrollo. Trabajé en diferentes proyectos para clientes nacionales y proyectos off-shore.",
     "contacto": {
         "direccion": "Mz B27 Lt25 Manuel Arévalo etapa III",
         "telefono": "+51 977335635",
@@ -11,13 +12,13 @@
         {
             "nombre": "Cristhian Davila Facundo",
             "empresa": "Everis",
-            "telefono": "+51 963852741",
+            "telefono": "+51 945204292",
             "email": "cdavilaf@everis.com"
         },
         {
             "nombre": "Cesar Herrera Campaña",
             "empresa": "Everis",
-            "telefono": "+51 963852123",
+            "telefono": "+51 949329649",
             "email": "cherreca@everis.com"
         }
     ],
@@ -76,6 +77,14 @@
                 {
                     "nombre": "PrimeFaces",
                     "nivel": 3.41
+                },
+                {
+                    "nombre": "Spring MVC",
+                    "nivel": 3.97
+                },
+                {
+                    "nombre": "Thymeleaf",
+                    "nivel": 3.11
                 }
             ]
         },
@@ -83,7 +92,7 @@
             "categoria": "BACK-END",
             "skills": [
                 {
-                    "nombre": "Java EE",
+                    "nombre": "Java 8",
                     "nivel": 4.1
                 },
                 {
@@ -97,10 +106,6 @@
                 {
                     "nombre": "Spring Boot",
                     "nivel": 3.87
-                },
-                {
-                    "nombre": "Spring MVC",
-                    "nivel": 3.97
                 },
                 {
                     "nombre": "Spring Security",
@@ -125,6 +130,10 @@
                 {
                     "nombre": "Swagger",
                     "nivel": 2.99
+                },
+                {
+                    "nombre": "Jackson/Gson",
+                    "nivel": 3.88
                 },
                 {
                     "nombre": "JPA",
@@ -155,9 +164,14 @@
                     "nivel": 2.99
                 },
                 {
-                    "nombre": "Jackson/Gson",
-                    "nivel": 3.88
+                    "nombre": "JBoss",
+                    "nivel": 2.99
+                },
+                {
+                    "nombre": "WebSphere",
+                    "nivel": 2.11
                 }
+                
             ]
         },
         {
@@ -165,7 +179,11 @@
             "skills": [
                 {
                     "nombre": "GIT",
-                    "nivel": 4.65
+                    "nivel": 4.35
+                },
+                {
+                    "nombre": "SVN",
+                    "nivel": 3.15
                 },
                 {
                     "nombre": "nodeJS",
@@ -178,6 +196,10 @@
                 {
                     "nombre": "Firebase",
                     "nivel": 3.89
+                },
+                {
+                    "nombre": "AWS",
+                    "nivel": 1.81
                 },
                 {
                     "nombre": "Postman",
@@ -326,6 +348,20 @@
         {
             "nombreEntidad":"I.E. Fe y Alegria",
             "descripcion":"Primaria"
+        }
+    ],
+    "certificados":[
+        {
+            "nombreEntidad":"Universidad Nacional de Trujillo",
+            "descripcion":"Concurso de proyectos informáticos en la escuela académica profesional de Informática"
+        },
+        {
+            "nombreEntidad":"Universidad Privada Antenor Orrego",
+            "descripcion":"Expositor en la II Feria Regional de Ciencia y Tecnología"
+        },
+        {
+            "nombreEntidad":"Universidad Nacional de Trujillo",
+            "descripcion":"Expositor en la II Feria de Ciencias Básicas y sus Aplicaciones"
         }
     ]
 }
