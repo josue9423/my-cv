@@ -270,6 +270,10 @@
                         {"skill":"PrimeFaces"},
                         {"skill":"JPA"},
                         {"skill":"Hibernate"},
+                        {"skill":"JavaScript"},
+                        {"skill":"Jquery"},
+                        {"skill":"CSS3"},
+                        {"skill":"HTML5"},
                         {"skill":"REST"},
                         {"skill":"Oracle 11g"},
                         {"skill":"SVN"}
@@ -323,6 +327,8 @@
                         {"skill":"CSS 3"},
                         {"skill":"Jquery"},
                         {"skill":"Ajax"},
+                        {"skill":"JavaScript"},
+                        {"skill":"HTML5"},
                         {"skill":"Bootstrap 4"},
                         {"skill":"GIT"}
                     ]
