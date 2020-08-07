@@ -2,7 +2,7 @@
     "nombre": "JOSUÉ NEIL ACOSTA SALVA",
     "cargo": "Full Stack Developer",
     "imagen": "assets/img/profile.jpg",
-    "descripcion": "Apasionado por el desarrollo WEB, actualmente me desempeño como desarrollador Full-Stack con sólidos conocimientos en Java como lenguaje principal de desarrollo. Trabajé en diferentes proyectos para clientes nacionales y proyectos off-shore.",
+    "descripcion": "Apasionado por el desarrollo Web/Mobile, actualmente me desempeño como desarrollador Front-end con sólidos conocimientos en Java como lenguaje principal de desarrollo. Trabajé en diferentes proyectos para clientes nacionales y proyectos off-shore.",
     "contacto": {
         "direccion": "Mz B27 Lt25 Manuel Arévalo etapa III",
         "telefono": "+51 977335635",
@@ -238,9 +238,46 @@
     ],
     "experiencias": [
         {
+            "empresa": "La Positiva Seguros",
+            "ingreso": "MAYO 2020",
+            "salida": "Actualidad",
+            "proyectos":[
+                {
+                    "cliente":"Mobility",
+                    "descripcion":"Desarrollador fron-end para la app de autogestión de los clientes de La Positiva.",
+                    "tecnologias":[
+                        {"skill":"Android"},
+                        {"skill":"MVVM"},
+                        {"skill":"Retrofit"},
+                        {"skill":"Firebase"},
+                        {"skill":"Analitycs"},
+                        {"skill":"OneSignal"},
+                        {"skill":"Apiary"},
+                        {"skill":"Kotlin"},
+                        {"skill":"Postman"},
+                        {"skill":"GIT"}
+                    ]
+                },
+                {
+                    "cliente":"Digitalización",
+                    "descripcion":"Desarrollador WEB en aplicaciones internas de La Positiva",
+                    "tecnologias":[
+                        {"skill":"HTML5"},
+                        {"skill":"CSS3"},
+                        {"skill":"OutSystems"},
+                        {"skill":"Javascript"},
+                        {"skill":"VueJS"},
+                        {"skill":"Git"},
+                        {"skill":"REST"}
+     
+                    ]
+                }
+            ]
+        },
+        {
             "empresa": "Everis",
             "ingreso": "ABRIL 2019",
-            "salida": "Actualidad",
+            "salida": "AGOSTO 2020",
             "proyectos":[
                 {
                     "cliente":"Correos España (MOVIL)",
