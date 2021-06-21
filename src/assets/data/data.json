@@ -2,13 +2,25 @@
     "nombre": "JOSUÉ NEIL ACOSTA SALVA",
     "cargo": "Full Stack Developer",
     "imagen": "assets/img/profile.jpg",
-    "descripcion": "Apasionado por el desarrollo Web/Mobile, actualmente me desempeño como desarrollador Front-end con sólidos conocimientos en Java como lenguaje principal de desarrollo. Trabajé en diferentes proyectos para clientes nacionales y proyectos off-shore.",
+    "descripcion": "Apasionado por el desarrollo WEB, actualmente me desempeño como desarrollador Full-Stack con sólidos conocimientos en Java como lenguaje principal de desarrollo. Trabajé en diferentes proyectos para clientes nacionales y proyectos off-shore.",
     "contacto": {
-        "direccion": "Mz B27 Lt25 Manuel Arévalo etapa III",
+        "direccion": "Av. Los colibries Mz B3 Lt.30 Residencial Rafaela III Dpto. 902 - Trujillo",
         "telefono": "+51 977335635",
         "email": "josue9423@gmail.com"
     },
     "referencias": [
+        {
+            "nombre": "Cesar Lopez Castillo",
+            "empresa": "MDP Consulting",
+            "telefono": "+51 958538109",
+            "email": "cesar.lopez@mdp.com.pe"
+        },
+       {
+            "nombre": "Jesus La Torre",
+            "empresa": "La Positiva",
+            "telefono": "+51 951762252",
+            "email": "jesus.latorre@lapositiva.com.pe"
+        },
         {
             "nombre": "Cristhian Davila Facundo",
             "empresa": "Everis",
@@ -48,15 +60,15 @@
                 },
                 {
                     "nombre": "Android",
-                    "nivel": 3.14
+                    "nivel": 4.14
                 },
                 {
                     "nombre": "Angular",
-                    "nivel": 3.15
+                    "nivel": 4.15
                 },
                 {
                     "nombre": "Ionic",
-                    "nivel": 2.62
+                    "nivel": 3.62
                 },
                 {
                     "nombre": "Cordova 9",
@@ -68,7 +80,7 @@
                 },                
                 {
                     "nombre": "JSP",
-                    "nivel": 2.85
+                    "nivel": 3.85
                 },
                 {
                     "nombre": "JSF",
@@ -93,23 +105,23 @@
             "skills": [
                 {
                     "nombre": "Java 8",
-                    "nivel": 4.1
+                    "nivel": 4.5
                 },
                 {
                     "nombre": "Maven",
-                    "nivel": 3.25
+                    "nivel": 4.25
                 },
                 {
                     "nombre": "Docker",
-                    "nivel": 1.9
+                    "nivel": 2.9
                 },
                 {
                     "nombre": "Spring Boot",
-                    "nivel": 3.87
+                    "nivel": 4.37
                 },
                 {
                     "nombre": "Spring Security",
-                    "nivel": 2.87
+                    "nivel": 3.87
                 },
                 {
                     "nombre": "Spring Data",
@@ -117,11 +129,11 @@
                 },
                 {
                     "nombre": "Spring Cloud",
-                    "nivel": 1.69
+                    "nivel": 3.69
                 },
                 {
                     "nombre": "Microservicios",
-                    "nivel": 3.11
+                    "nivel": 4.11
                 },
                 {
                     "nombre": "JHipster",
@@ -129,11 +141,11 @@
                 },
                 {
                     "nombre": "Swagger",
-                    "nivel": 2.99
+                    "nivel": 3.99
                 },
                 {
                     "nombre": "Jackson/Gson",
-                    "nivel": 3.88
+                    "nivel": 4.88
                 },
                 {
                     "nombre": "JPA",
@@ -199,7 +211,7 @@
                 },
                 {
                     "nombre": "AWS",
-                    "nivel": 1.81
+                    "nivel": 3.81
                 },
                 {
                     "nombre": "Postman",
@@ -238,9 +250,48 @@
     ],
     "experiencias": [
         {
+            "empresa": "MDP Consulting SAC",
+            "ingreso": "OCTUBRE 2020",
+            "salida": "Actualidad",
+            "proyectos":[
+                {
+                    "cliente":"AFP Integra",
+                    "descripcion":"Desarrollador Backend en diversos proyectos orientados a MS.",
+                    "tecnologias":[
+                        {"skill":"Java 8"},
+                        {"skill":"Microservicios"},
+                        {"skill":"Maven"},
+                        {"skill":"Restful API"},
+                        {"skill":"AWS Secrets"},
+                        {"skill":"AWS SNS"},
+                        {"skill":"AWS SQS"},
+                        {"skill":"AWS APIGW"},
+                        {"skill":"IBM Apiconnect"},
+                        {"skill":"AWS SES"},
+                        {"skill":"Spring boot"},
+                        {"skill":"Spring cloud"},
+                        {"skill":"Clean Architecture"},
+                        {"skill":"Feign"},
+                        {"skill":"Lombok"},
+                        {"skill":"Swagger"},
+                        {"skill":"Actuator"},
+                        {"skill":"ELK"},
+                        {"skill":"Jenkins"},
+                        {"skill":"Docker"},
+                        {"skill":"Sonar"},
+                        {"skill":"IBM Datapower"},
+                        {"skill":"IBM DB2"},
+                        {"skill":"Mockito"},
+                        {"skill":"JUnit 4-5"},
+                        {"skill":"Karate"}
+                    ]
+                }
+            ]
+        },
+        {
             "empresa": "La Positiva Seguros",
             "ingreso": "MAYO 2020",
-            "salida": "Actualidad",
+            "salida": "MAYO 2021",
             "proyectos":[
                 {
                     "cliente":"Mobility",
